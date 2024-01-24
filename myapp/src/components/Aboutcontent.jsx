@@ -10,7 +10,7 @@ let url={
 
 function Images({src}){
   return(
-    <div className="col-12  col-lg-4 m-auto " >
+    <div className="col-12  col-lg-4  " >
      <div className='' style={{backgroundColor:"#eff2f1"}}>   
       <Card  className=""style={{ width: '18rem', backgroundColor:'transparent',color:'black'}}>
       <Card.Img variant="top" className='image11' src={src} />
