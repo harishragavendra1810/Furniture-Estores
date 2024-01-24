@@ -10,9 +10,9 @@ let url={
 
 function Images({src}){
   return(
-    <div className="col-12  col-lg-4 text-center p-2" >
-     <div className='p-5  ' style={{backgroundColor:"#eff2f1"}}>   
-      <Card  className="m-3"style={{ width: '18rem', backgroundColor:'transparent',color:'black'}}>
+    <div className="col-12  col-lg-4 m-auto " >
+     <div className='' style={{backgroundColor:"#eff2f1"}}>   
+      <Card  className=""style={{ width: '18rem', backgroundColor:'transparent',color:'black'}}>
       <Card.Img variant="top" className='image11' src={src} />
       <Card.Body>
         <Card.Title>Harish</Card.Title>
