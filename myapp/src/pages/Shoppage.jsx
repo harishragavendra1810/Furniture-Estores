@@ -7,11 +7,14 @@ function Shoppage(){
         <>
            <div style={{overflowX:"hidden"}}>
     <div className="mt-5 " style={{backgroundColor:"#eff2f1", width:"100%"}}>
-    < div className='row'>
+    
       <Topnav/>
-      <h1 className="mt-5 text-center container" style={{color:"black"}}  >Shop</h1>
+      <div className="container">
+      < div className='row'>
+      <h1 className="mt-5 text-center" style={{color:"black"}}  >Shop</h1>
        <ExploreCard/>
        <ExploreCard/>
+       </div>
        </div>
         </div>
 

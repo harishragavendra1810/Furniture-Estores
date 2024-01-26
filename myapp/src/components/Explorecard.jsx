@@ -13,55 +13,74 @@ function ExploreCard() {
   const Navigate = useNavigate();
   return (
     <>
-      <div
-        className="d-flex flex-column justify-content-center p-5 col-12 col-lg-2 m-4 img "
-        style={{ color: "black" }}
-      >
-        <img className="" src={card.url1} alt="" />
-        <div className="text-center">
-          <h4>Nordic Cusion Chair</h4>
-          <p> ₹ 1500 /-</p>
-          <button
-            className="m-2 button shopBtnClr"
-            onClick={() => Navigate("/cart")}
+      <div className="container">
+        <div className="row">
+          <div
+            className="d-flex flex-column justify-content-center p-5 img col-lg-3  col-12"
+            style={{ color: "black" }}
           >
-            Add to cart
-          </button>{" "}
-        </div>{" "}
-      </div>
+            <img className="" src={card.url1} alt="" />
+            <div className="text-center">
+              <h6>Nordic Cusion Chair</h6>
+              <p> ₹ 1500 /-</p>
+              <button
+                className="m-2 button shopBtnClr"
+                onClick={() => Navigate("/cart")}
+              >
+                Add to cart
+              </button>{" "}
+            </div>{" "}
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center p-5 img col-lg-3  col-12"
+            style={{ color: "black" }}
+          >
+            <img className="" src={card.url1} alt="" />
+            <div className="text-center">
+              <h6>Nordic Cusion Chair</h6>
+              <p> ₹ 1500 /-</p>
+              <button
+                className="m-2 button shopBtnClr"
+                onClick={() => Navigate("/cart")}
+              >
+                Add to cart
+              </button>{" "}
+            </div>{" "}
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center p-5 img col-lg-3  col-12"
+            style={{ color: "black" }}
+          >
+            <img className="" src={card.url2} alt="" />
+            <div className="text-center">
+              <h6>Nordic Cusion Chair</h6>
+              <p> ₹ 1500 /-</p>
+              <button
+                className="m-2 button shopBtnClr"
+                onClick={() => Navigate("/cart")}
+              >
+                Add to cart
+              </button>{" "}
+            </div>{" "}
+          </div>
 
-      <div
-        className="d-flex flex-column justify-content-center p-5 col-12 col-lg-2 m-4 img"
-        style={{ color: "black" }}
-      >
-        <img className="" src={card.url2} alt="" />
-        <div className="text-center">
-          <h4>kruzo Aero Chair</h4>
-          <p> ₹ 2200 /-</p>
-          <button
-            className="m-2 button shopBtnClr"
-            onClick={() => Navigate("/cart")}
+          <div
+            className="d-flex flex-column justify-content-center p-5 img col-lg-3  col-12 "
+            style={{ color: "black" }}
           >
-            Add to cart
-          </button>{" "}
-        </div>{" "}
-      </div>
-
-      <div
-        className="d-flex flex-column justify-content-center p-5 col-12 col-lg-2 m-4 img"
-        style={{ color: "black" }}
-      >
-        <img className="" src={card.url3} alt="" />
-        <div className="text-center">
-          <h4>Ergonomic Chair</h4>
-          <p> ₹ 3500 /-</p>
-          <button
-            className="m-2 button shopBtnClr"
-            onClick={() => Navigate("/cart")}
-          >
-            Add to cart
-          </button>{" "}
-        </div>{" "}
+            <img className="" src={card.url3} alt="" />
+            <div className="text-center">
+              <h6>Nordic Cusion Chair</h6>
+              <p> ₹ 1500 /-</p>
+              <button
+                className="m-2 button shopBtnClr"
+                onClick={() => Navigate("/cart")}
+              >
+                Add to cart
+              </button>{" "}
+            </div>{" "}
+          </div>
+        </div>
       </div>
     </>
   );

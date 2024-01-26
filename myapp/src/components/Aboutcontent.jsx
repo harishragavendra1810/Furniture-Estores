@@ -10,9 +10,9 @@ let url={
 
 function Images({src}){
   return(
-    <div className="col-12  col-lg-4  " >
-     <div className='' style={{backgroundColor:"#eff2f1"}}>   
-      <Card  className=""style={{ width: '18rem', backgroundColor:'transparent',color:'black'}}>
+    <div className="col-12  col-lg-4 " >
+     <div className='container' style={{backgroundColor:"#eff2f1"}}>   
+      <Card  className="mt-2"style={{ width: '18rem', backgroundColor:'transparent',color:'black'}}>
       <Card.Img variant="top" className='image11' src={src} />
       <Card.Body>
         <Card.Title>Harish</Card.Title>
@@ -29,7 +29,7 @@ function Aboutcontent() {
   <div style={{backgroundColor:"#eff2f1"}}>
     <h1 className='text-center'>Our Team</h1>
      <div className="container" >
-        <div className='row 'style={{textAlign:"center"}} >
+        <div className='row m-auto'style={{textAlign:"center"}} >
           <Images src={url.url1}  />
           <Images src={url.url2} />
           <Images src={url.url3}  /> 
