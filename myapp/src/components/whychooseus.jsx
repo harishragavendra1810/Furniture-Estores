@@ -5,24 +5,22 @@ import { useState } from 'react';
 import ScrollTrigger from 'react-scroll-trigger'
 const Whychooseus = () => {
 
-
   const [counterOn,setCounterOn] = useState(false);
   return (
     <>
     <div className='container  mt-5 mb-5' >
       <h1 className='m-5' style={{color:"black"}}>Why Choose US ?</h1>
         <div className='row'>
-                <div className='col-lg-7 col-12 col-md-12'>
-                  <div className='d-flex'>
-                    <img src='https://themewagon.github.io/furni/images/img-grid-1.jpg' alt=''style={{height:"500px",width:"400px",borderRadius:"15px"}}/>
-                  <div>
-                        <img className="pb-2"src='https://themewagon.github.io/furni/images/img-grid-2.jpg' alt=''style={{height:"250px",width:"250px",borderRadius:"10px",marginLeft:"15px"}}/>
-                        <img className="" src='https://themewagon.github.io/furni/images/img-grid-3.jpg' alt='' style={{height:"250px",width:"250px",borderRadius:"10px",marginLeft:"15px"}}/>
+               
+                  <div className='d-flex col-lg-6 col-12 col-md-12'>
+                    <img src='https://themewagon.github.io/furni/images/img-grid-1.jpg' alt=''style={{height:"400px",width:"300px",borderRadius:"15px"}}/>
+                      <div className='d-flex flex-column'>
+                        <img className="pb-2"src='https://themewagon.github.io/furni/images/img-grid-2.jpg' alt=''style={{height:"200px",width:"200px",borderRadius:"10px",marginLeft:"15px"}}/>
+                        <img className="" src='https://themewagon.github.io/furni/images/img-grid-3.jpg' alt='' style={{height:"200px",width:"200px",borderRadius:"10px",marginLeft:"15px"}}/>
                         </div>
-                    </div>
-                    </div>
-                  <div className='col-lg-5 col-12 col-md-12 mt-5'>
-                    <div className='container'>
+                    </div>  
+              
+                    <div className=' col-lg-6 col-12 col-md-12'>
                     <h2 style={{color:"black"}}>We Help You Make Modern Interior Design</h2>
                     <p>Until it's easier than to make a pure makeup policy. Until the end of life, no one wants to be a player. He doesn't like trucks. Aliquam vulputate velit imperdiet pain tempor sad. Children living in old age and grandchildren</p>
                     <ul>
@@ -34,7 +32,6 @@ const Whychooseus = () => {
                       <li style={{marginLeft:"100px"}}>Until the end of life, no one wants to be a player</li></div>
                     </ul>
                    <Button/>
-                    </div>
                   </div>
         </div>
     </div>

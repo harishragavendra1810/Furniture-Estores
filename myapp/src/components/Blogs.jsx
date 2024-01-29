@@ -10,7 +10,7 @@ function Blogs() {
   return (
     <div className="container" style={{ backgroundColor: "#eff2f1" }}>
      <div className="row">
-        <BlogContent className="m-auto"src={blogs.url1} />
+        <BlogContent src={blogs.url1} />
         <BlogContent src={blogs.url2} />
         <BlogContent src={blogs.url3} />
     </div>

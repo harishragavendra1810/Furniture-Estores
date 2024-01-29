@@ -8,6 +8,13 @@ import{Link as Scroll} from "react-scroll";
 
 export default Topnav;
 
+
+
+
+
+
+
+
 function Topnav({explore}) {
   return (   
     <Navbar expand="lg" style={{backgroundColor:'#3b5d50' ,height:'80px'}} className='fixed-top' >
