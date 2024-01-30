@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
-import Contactus from "../pages/Contactuspage";
 import Topnav from "./Nav";
 import { useNavigate } from "react-router-dom";
+import Footer from "./Footer";
 
 function Cart() {
   const Navigate = useNavigate();
@@ -21,7 +21,7 @@ function Cart() {
           </h1>
           <Table />
           <div className="row m-5 ">
-            <div className=" col-12 col-lg-3">
+            <div className=" col-12 col-lg-3 col-md-6">
               <button
                 className="m-2 ebutton button"
                 style={{ width: "200px" }}
@@ -30,7 +30,7 @@ function Cart() {
                 Continue Shopping
               </button>
             </div>
-            <div className=" col-12 col-lg-3">
+            <div className=" col-12 col-md-6 col-lg-3">
               {" "}
               <button
                 className="m-2 ebutton button"
@@ -44,7 +44,7 @@ function Cart() {
           <div className="row">
             <Coupon /> <Checkin />
           </div>
-          <Contactus />
+          <Footer></Footer>
         </div>
       </div>
     </>
@@ -53,29 +53,28 @@ function Cart() {
 
 export default Cart;
 
-
 function Table() {
-    const data = [
-        {
-          name: "Nordic chair",
-          price: "₹ 1500 /-",
-          total: "₹ 1500 /-",
-          url: "https://themewagon.github.io/furni/images/product-2.png",
-        },
-        {
-          name: "Ergonomic chair",
-          price: "₹ 2500 /-",
-          total: "₹ 2500 /-",
-          url: "https://themewagon.github.io/furni/images/product-1.png",
-        },
-        {
-          name: "Ergonomic chair",
-          price: "₹ 2500 /-",
-          total: "₹ 2500 /-",
-          url: "https://themewagon.github.io/furni/images/product-1.png",
-        },
-      ];
-      
+  const data = [
+    {
+      name: "Nordic chair",
+      price: "₹ 1500 /-",
+      total: "₹ 1500 /-",
+      url: "https://themewagon.github.io/furni/images/product-2.png",
+    },
+    {
+      name: "Ergonomic chair",
+      price: "₹ 2500 /-",
+      total: "₹ 2500 /-",
+      url: "https://themewagon.github.io/furni/images/product-1.png",
+    },
+    {
+      name: "Ergonomic chair",
+      price: "₹ 2500 /-",
+      total: "₹ 2500 /-",
+      url: "https://themewagon.github.io/furni/images/product-1.png",
+    },
+  ];
+
   return (
     <div className="App d-flex justify-content-center ">
       <table className="m-5 p-5">
@@ -103,7 +102,7 @@ function Table() {
                   <input
                     type="number"
                     defaultValue="1"
-                    style={{ width: "50px" }}   
+                    style={{ width: "50px" }}
                   ></input>
                 </td>
                 <td>{val.price}</td>
@@ -121,7 +120,8 @@ function Table() {
           <td></td>
           <td></td>
           <td></td>
-          <td id="yy"
+          <td
+            id="yy"
             style={{
               fontWeight: "bold",
               fontFamily: "sans-serif",
@@ -146,11 +146,11 @@ function Table() {
 }
 function Coupon() {
   return (
-    <div className="m-auto p-5 col-12 col-lg-5">
+    <div className="m-auto p-5 col-12 col-md-6 col-lg-5">
       <h1>Coupon</h1>
       <p>Enter your coupon code if you have one.</p>
       <div className="row">
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-6 m-3">
           <input
             id="c"
             type="String"
@@ -158,7 +158,7 @@ function Coupon() {
             style={{ height: "50px", width: "200px", borderRadius: "20px" }}
           />
         </div>
-        <div className="col-12 col-lg-2 p-3 ">
+        <div className="col-12 col-lg-2 m-3">
           {" "}
           <button className=" ebutton button " style={{ width: "200px" }}>
             Apply Coupon
@@ -171,7 +171,10 @@ function Coupon() {
 function Checkin() {
   const Navigate = useNavigate();
   return (
-    <div className=" p-5 col-12 col-lg-5 m-auto " style={{ marginTop: "32px" }}>
+    <div
+      className="  col-12 col-lg-5 col-md-6 m-auto "
+      style={{ marginTop: "32px" }}
+    >
       <h1>Cart Totals</h1>
       <p>Subtotal 500</p>
       <p>Total 500</p>

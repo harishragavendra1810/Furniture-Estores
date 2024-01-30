@@ -23,7 +23,7 @@ export default Blogs;
 function BlogContent({ src }) {
   return (
    
-        <div className="col-12 col-lg-4 col-md-12 text-center">
+        <div className="col-12 col-lg-4 col-md-6 text-center">
               <img
                 src={src}
                 alt=""

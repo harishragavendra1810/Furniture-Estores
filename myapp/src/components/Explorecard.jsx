@@ -17,7 +17,7 @@ function ExploreCard() {
       <div className="container">
         <div className="row">
           <div
-            className="d-flex flex-column justify-content-center p-5 img col-lg-3  col-12 col-md-6"
+            className="d-flex flex-column justify-content-center p-5 img col-lg-4  col-12 col-md-6"
             style={{ color: "black" }}
           >
             <img className="" src={card.url1} alt="" />
@@ -33,13 +33,13 @@ function ExploreCard() {
             </div>{" "}
           </div>
           <div
-            className="d-flex flex-column justify-content-center p-5 img col-lg-3  col-12 col-md-6"
+            className="d-flex flex-column justify-content-center p-5 img col-lg-4  col-12 col-md-6"
             style={{ color: "black" }}
           >
-            <img className="" src={card.url1} alt="" />
+            <img className="" src={card.url2} alt="" />
             <div className="text-center">
-              <h6>Nordic Cusion Chair</h6>
-              <p> ₹ 1500 /-</p>
+              <h6> Aero Cusion Chair</h6>
+              <p> ₹ 1200 /-</p>
               <button
                 className="m-2 button shopBtnClr"
                 onClick={() => Navigate("/cart")}
@@ -49,13 +49,13 @@ function ExploreCard() {
             </div>{" "}
           </div>
           <div
-            className="d-flex flex-column justify-content-center p-5 img col-lg-3  col-12 col-md-6"
+            className="d-flex flex-column justify-content-center p-5 img col-lg-4  col-12 col-md-6"
             style={{ color: "black" }}
           >
-            <img className="" src={card.url2} alt="" />
+            <img className="" src={card.url3} alt="" />
             <div className="text-center">
-              <h6>Nordic Cusion Chair</h6>
-              <p> ₹ 1500 /-</p>
+              <h6>kruzo Cusion Chair</h6>
+              <p> ₹ 2500 /-</p>
               <button
                 className="m-2 button shopBtnClr"
                 onClick={() => Navigate("/cart")}
@@ -65,25 +65,9 @@ function ExploreCard() {
             </div>{" "}
           </div>
 
-          <div
-            className="d-flex flex-column justify-content-center p-5 img col-lg-3  col-12 col-md-6"
-            style={{ color: "black" }}
-          >
-            <img className="" src={card.url3} alt="" />
-            <div className="text-center">
-              <h6>Nordic Cusion Chair</h6>
-              <p> ₹ 1500 /-</p>
-              <button
-                className="m-2 button shopBtnClr"
-                onClick={() => Navigate("/cart")}
-              >
-                Add to cart
-              </button>{" "}
-            </div>{" "}
-          </div>
         </div>
       </div>
-    </>
+    </> 
   );
 }
 
