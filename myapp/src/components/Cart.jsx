@@ -4,9 +4,6 @@ import Contactus from "../pages/Contactuspage";
 import Topnav from "./Nav";
 import { useNavigate } from "react-router-dom";
 
-
-
-
 function Cart() {
   const Navigate = useNavigate();
   return (
