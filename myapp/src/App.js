@@ -8,8 +8,8 @@ import Contactus from "./pages/Contactuspage";
 import purchase from "./pages/Purchase";
 import ScrollToTop from "./pages/Scrolltop";
 import Login from "./components/Login";
-import loginpage from "./pages/loginpage";
 import Signup from "./components/Signup";
+import Thankyou from "./pages/Thankyou";
 
 
 function App() {
@@ -26,7 +26,9 @@ function App() {
       <Route path="/purchase" Component={purchase}></Route>
       <Route path="/login" Component={Login}></Route>
       <Route path="/signup" Component={Signup}></Route>
-      <Route path="/locgin" Component={loginpage}></Route>
+      <Route path="/thank" Component={Thankyou}></Route>
+   
+    
      </Routes>
     
     </div>

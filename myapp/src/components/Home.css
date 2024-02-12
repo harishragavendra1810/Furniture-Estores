@@ -1,84 +1,100 @@
-.button{
+.button {
   border-radius: 25px;
   height: 50px;
   width: 120px;
   text-align: center;
-}  
-.shopBtnClr{
-    background: #f9bf29;
-    color: #2f2f2f;
 }
-.exploreBtnClr{
-       color: #ffff;
-        background: transparent;
-        border-width: 2px;
-        border-color: rgba(255, 255, 255, 0.3);
+.shopBtnClr {
+  background: #f9bf29;
+  color: #2f2f2f;
 }
-.ebutton{    color: #ffffff;
-    background: #2f2f2f;
-    border-color: #2f2f2f;}
-.img:hover{
- transform: scale(1.1);
-    }
+.exploreBtnClr {
+  color: #ffff;
+  background: transparent;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.ebutton {
+  color: #ffffff;
+  background: #2f2f2f;
+  border-color: #2f2f2f;
+}
+.img:hover {
+  transform: scale(1.1);
+}
 
-.App{
+.App {
   text-align: center;
   display: flex;
-
-} 
-  table {
-       margin: "250px";
-      border: 2px solid;
-      width:80%;
-      height: 200px;
-      text-align: center;
-  }
-   
-  th {
-      border-bottom: 1px solid black;
-      text-align: center;
-  } 
-   
-  td {
-      text-align: center;
-  }
-
-  .form1{
-    height: 50px;
-    border-radius: 10px;
-    font-family: "Inter", sans-serif;
-  }
-  .sendbtn{
-    height: 50px;
-    width: 200px;
-    color: white;
-    background-color: #2f2f2f;
-    text-align: center;
-    border-radius: 25px;
-    margin-top:50px;
-  }
-  .icnsize{
-   
-    border-radius: 8px;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-
-  }
-  .icn{
-    color: white;
-   
-  }
-  
-
-.toggle{
-  background-image: url("https://icon-library.com/images/hamburger-menu-icon-svg/hamburger-menu-icon-svg-20.jpg");
-  background-size: cover;
-
- 
+}
+table {
+  margin: "250px";
+  border: 2px solid;
+  width: 80%;
+  height: 200px;
+  text-align: center;
 }
 
+th {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
 
+td {
+  text-align: center;
+}
 
+.form1 {
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+}
+.sendbtn {
+  height: 50px;
+  width: 200px;
+  color: white;
+  background-color: #2f2f2f;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+.icnsize {
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+.icn {
+  color: white;
+}
 
+.toggle {
+  background-image: url("https://icon-library.com/images/hamburger-menu-icon-svg/hamburger-menu-icon-svg-20.jpg");
+  background-size: cover;
+}
 
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: #212529;
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --bs-table-active-color: #212529;
+  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  --bs-table-hover-color: #212529;
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  vertical-align: top;
+  border-color: #dee2e6;
+  caption-side: bottom;
+}
+
+.bank {
+  border-color: #eff2f1;
+  border: #eff2f1 solid 2px;
+  padding: 2px;
+}
+.show {
+  display: none;
+}
