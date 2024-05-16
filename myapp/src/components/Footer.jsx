@@ -103,10 +103,10 @@ export default function Footer() {
                 Furni@business.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 91 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> + 91 234 567 5058
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 91 234 567 89
+                <MDBIcon icon="print" className="me-3" /> + 91 902 547 5059
               </p>
             </MDBCol>
           </MDBRow>
