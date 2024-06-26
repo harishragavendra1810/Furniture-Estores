@@ -76,7 +76,7 @@ function Address() {
                     </label>
                     <input className="form1" type="Address" id="state"></input>
                   </div>
-                </div>
+                </div>O
                 <div className="col-lg-6 ">
                   <div className="d-flex flex-column">
                     <label htmlFor="pincode">

@@ -27,10 +27,7 @@ function App() {
       <Route path="/login" Component={Login}></Route>
       <Route path="/signup" Component={Signup}></Route>
       <Route path="/thank" Component={Thankyou}></Route>
-   
-    
      </Routes>
-    
     </div>
   );
 }
