@@ -15,7 +15,6 @@ const Login = () => {
 		<div class="input-group d-flex flex-column">
 			<label for="password">Password</label>
 			<input type="password" name="password" id="password" placeholder="" required/>
-			
 		</div>	
 		<div class="forgot">
 				<a rel="noopener noreferrer" href="www.google.com">Forgot Password ?</a>
