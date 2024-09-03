@@ -31,7 +31,7 @@ function BlogContent({ src }) {
               />
             <h6>First Time Home Owner Ideas</h6>
             <p>
-              by <b>Kristin Watson </b>on Dec 19, 2021
+              by <b>Kristin Watson </b>on AUG 19, 2024
             </p>
         </div>
 
